@@ -141,7 +141,7 @@ main {
  */
 
 .hero {
-  float: left;
+  /* float: left;  */ /* no longer needed since photo takes up the whole width column*/
   width: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
@@ -169,8 +169,8 @@ main {
  */
 
 .top-news {
-  float: right;
-  width: 100%;
+  /* float: right;
+  width: 100%; */ /* width not required since inherited from body*/
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
@@ -200,7 +200,8 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .top-news__item a:hover,
@@ -216,8 +217,8 @@ main {
  */
 
 .scores {
-  width: 100%;
-  float: left;
+  /* width: 100%;
+  float: left; */
   padding-top: 1em;
 }
 
@@ -265,8 +266,8 @@ main {
  */
 
 .weather {
-  float: right;
-  width: 100%;
+  /* float: right;
+  width: 100%; */ /* since it is under one umbrella main container no need to set width 100% each section*/
   padding: 1em;
 }
 
@@ -343,7 +344,8 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .snippet__title a:hover,
