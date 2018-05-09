@@ -8,7 +8,7 @@ Udacity Mobile Web Specialist Nanodegree Project * Part1: Hometown Project
 ## Lecture
 https://classroom.udacity.com/nanodegrees/nd024/parts/0bf842e9-7269-42de-b68b-812ca7823517/modules/e08f25bf-f172-4fb8-9812-b09ca908ae37/lessons/3494350031/concepts/35019794250923
 
-## Requirement
+## Requirement hometown project version1
 1. Add a <meta> viewport to the page with initial scale set.  Remeber initial-scale=1.0
 
   ```html
@@ -36,3 +36,9 @@ Here's the <meta> tag for easy copy/pasting:
 
 Download the RWDF_L2_Solution.zip file below.
 
+* Home town project version1:
+https://github.com/heggy231/Hometown-Project/tree/81f3f75c851c1378783107954821b3d2b4a64665
+
+
+# https://jsfiddle.net/heggycastaneda/vvmnf444/
+Adding media query as resizes the background color changes
